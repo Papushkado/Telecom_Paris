@@ -1,0 +1,30 @@
+#div_1 {
+    border: 1px solid;
+    padding: 9px;
+}
+
+#div_2 img {
+    float: left;
+    margin-right: 11px;
+}
+
+#div_3 {
+    background-color: slategrey;
+    padding: 10px;
+    margin: 10px;
+}
+
+.feu{
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left:116px;
+    right: 116px;
+}
+
+.feu:active{
+    display:none;
+}
+.feu:hover {
+    color: tomato;
+}
