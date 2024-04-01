@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <script src="test2.js" defer></script>
+</head>
+<body>
+    <body>
+        <button type="button" onclick="show()" id="BUTSHOW">show txt</button>
+        <button type="button" onclick="showAddForm()" id="BUT_ADD">add element</button>
+        <button type="button" onclick="showRemoveForm()" id="BUT_REMOVE">remove element</button>
+        <button type="button" onclick="clear2()" id="CLEAR">clear</button>
+        <button type="button" onclick="restore()" >restore</button>
+        <button type="button" onclick="showPieChart()" id="PIEBUTTON">show piechart</button>
+        <button type="button" onclick="showLocalPieChart()" id="LOC_PIE_BUTTON">show local piechart</button>
+        <div id="MAINSHOW"></div>
+
+        <!-- <form action="/hi" method="get">
+            <label for="name">Quel est ton nom ? </label>
+            <input type="text" id="visiteur" name="visiteur" >
+            <button type="submit">Submit</button>
+        </form> -->
+
+        <form id="addForm" style="display:none;" >
+            <label for="titleTF">Title:</label>
+            <input type="text" id="titleTF" name="titleTF">
+            <label for="valueTF">Value:</label>
+            <input type="number" id="valueTF" name="valueTF">
+            <label for="colorTF">Color:</label>
+            <input type="text" id="colorTF" name="colorTF">
+            <button type="button" onclick="add()" id="DOADD">Add Element</button>
+        </form>
+    
+        <form id="removeForm" style="display:none;">
+            <label for="indexTF">Index to Remove:</label>
+            <input type="number" id="indexTF" name="indexTF">
+            <button type="button" onclick="remove2()" id="SENDREM">Remove Element</button>
+        </form>
+        
+    
+    </body>
+    </html>
